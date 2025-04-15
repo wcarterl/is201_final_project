@@ -1,0 +1,57 @@
+/* Lets start by changing the format of the
+Body element (always have semicolons in body paragraphs) */
+
+Body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: indigo;
+    background-color: rgb(255, 145, 0);
+}
+
+p{
+
+    color: blue;
+}
+
+a:hover {
+    text-decoration: line-through;
+
+}
+
+a:visited {
+    color:yellow
+    
+}
+
+/* element selectors affect any element that you name
+p, body, div */
+
+li {
+    color: aqua;
+    font-weight: bold;
+}
+
+/* class selectors : start with . 
+affect any element block where you place a class attribute */
+
+.heading_text {
+    font-weight: bold;
+    color:aquamarine;
+    text-decoration: underline;
+}
+
+.special_text {
+    font-style: italic;
+    color:black;
+}
+
+/* create a new class selector 
+with smaller font-size 
+make the text have a strike through it
+and apply it to the single word in your
+website */
+
+.small_text {
+font-size:small;
+text-decoration: line-through;
+
+}
